@@ -1,0 +1,7 @@
+baseURL = "http://bitpunch.io/"
+languageCode = "en-us"
+title = "BITPUNCH - Games That Hit"
+theme = "ananke"
+
+[params]
+  description = "A dynamic game development studio, creators of next-gen games for the online casino industry."
