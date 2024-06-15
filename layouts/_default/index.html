@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="banner">
     <div class="banner-content text-center">
-        <img src="/images/banner-main-title.png" alt="Banner Logo" class="img-fluid">
+        <img src="{{ "images/banner-main-title.png" | relURL }}" alt="Banner Logo" class="img-fluid">
         <h3>Games That Hit</h3>
     </div>
 </section>
@@ -14,7 +14,7 @@
         {{ range first 4 (where .Site.RegularPages "Type" "games") }}
         <div class="col-md-3 col-sm-6">
             <div class="game-item">
-                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
             </div>
         </div>
         {{ end }}

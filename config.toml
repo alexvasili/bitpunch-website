@@ -1,4 +1,4 @@
-baseURL = "http://bitpunch.io/"
+baseURL = "https://bitpunch.netlify.app/"
 languageCode = "en-us"
 title = "BITPUNCH - Games That Hit"
 theme = "ananke"
