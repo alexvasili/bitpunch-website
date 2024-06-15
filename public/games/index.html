@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Title }}</title>
+    <title>My New Hugo Site</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
@@ -30,14 +30,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 56px; /* Height of the fixed navbar */
+            margin-top: 56px;  
         }
         .banner img {
             max-width: 100%;
             height: auto;
         }
         .banner h3 {
-            /* background: rgba(0, 0, 0, 0.5); */
+             
             padding: 20px;
             border-radius: 10px;
         }
@@ -92,7 +92,46 @@
         </div>
     </nav>
 
-    {{ block "main" . }}{{ end }}
+    
+<section class="container my-5">
+    <h2>Games</h2>
+    <div class="row">
+        
+        <div class="col-md-4 mb-4">
+            <div class="card p-3">
+                <h3><a href="http://localhost:1313/games/game1/">Game Title 1</a></h3>
+                <p>01-01-2024</p>
+                <p></p>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card p-3">
+                <h3><a href="http://localhost:1313/games/game2/">Game Title 2</a></h3>
+                <p>01-01-2024</p>
+                <p></p>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card p-3">
+                <h3><a href="http://localhost:1313/games/game3/">Game Title 3</a></h3>
+                <p>01-01-2024</p>
+                <p></p>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mb-4">
+            <div class="card p-3">
+                <h3><a href="http://localhost:1313/games/game4/">Game Title 4</a></h3>
+                <p>01-01-2024</p>
+                <p></p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
 
     <footer class="footer text-center text-md-left">
         <div class="container">

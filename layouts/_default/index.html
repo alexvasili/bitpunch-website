@@ -11,7 +11,7 @@
 <section id="portfolio" class="container my-5">
     <h2 class="text-center">Our Games</h2>
     <div class="row no-gutters">
-        {{ range first 4 (where .Site.Pages "Type" "games") }}
+        {{ range first 4 (where .Site.RegularPages "Type" "games") }}
         <div class="col-md-3 col-sm-6">
             <div class="game-item">
                 <img src="{{ .Params.image }}" alt="{{ .Title }}">
@@ -26,12 +26,13 @@
 <section id="news" class="container my-5">
     <h2 class="text-center">Latest News</h2>
     <div class="row">
-        {{ range first 3 (where .Site.Pages "Type" "news") }}
+        {{ range first 3 (where .Site.RegularPages "Type" "news") }}
         <div class="col-md-4 mb-4">
             <div class="card p-3">
                 <h3>{{ .Title }}</h3>
                 <p>{{ .Date.Format "02-01-2006" }}</p>
                 <p>{{ .Summary }}</p>
+                {{ .Content }}
             </div>
         </div>
         {{ end }}
@@ -57,7 +58,7 @@
             <div class="card p-3">
                 <h3>Artist</h3>
                 <p>We are looking for talented artists...</p>
-                                <a href="mailto:info@bitpunch.io" class="btn btn-gray">Apply Now</a>
+                <a href="mailto:info@bitpunch.io" class="btn btn-gray">Apply Now</a>
             </div>
         </div>
         <div class="col-md-4 mb-4">
@@ -114,4 +115,3 @@
 
 <div class="divider"></div>
 {{ end }}
-

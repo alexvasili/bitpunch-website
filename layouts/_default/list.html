@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="container my-5">
+    <h2>{{ .Title }}</h2>
+    <div class="row">
+        {{ range .Pages }}
+        <div class="col-md-4 mb-4">
+            <div class="card p-3">
+                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                <p>{{ .Date.Format "02-01-2006" }}</p>
+                <p>{{ .Summary }}</p>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
