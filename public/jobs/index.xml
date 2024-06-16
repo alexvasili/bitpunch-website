@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jobs on My New Hugo Site</title>
+    <link>http://localhost:1313/jobs/</link>
+    <description>Recent content in Jobs on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/jobs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Job 1</title>
+      <link>http://localhost:1313/jobs/job1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/job1/</guid>
+      <description>Job description &amp;hellip;</description>
+    </item>
+    <item>
+      <title>Job 2</title>
+      <link>http://localhost:1313/jobs/job2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/job2/</guid>
+      <description>Job description &amp;hellip;</description>
+    </item>
+    <item>
+      <title>Job 3</title>
+      <link>http://localhost:1313/jobs/job3/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/jobs/job3/</guid>
+      <description>Job description &amp;hellip;</description>
+    </item>
+  </channel>
+</rss>
