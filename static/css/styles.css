@@ -107,6 +107,15 @@ body {
 .btn-gray:hover {
     background-color: #5a6268;
 }
+.btn-green {
+    background-color: #39b54a;
+    color: #fff;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-green:hover {
+    background-color: #5a6268;
+}
 .footer {
     background-color: #222;
     padding: 20px 0;
@@ -138,6 +147,14 @@ h3 {
     color: #39b54a;
     font-size: 1.2rem;
 }
+h3 a {
+    color: #39b54a;
+    text-decoration: none;
+}
+h3 a:hover {
+    color: #37a846;
+}
+
 h4 {
     color: #39b54a;
     font-size: 1.1rem;
