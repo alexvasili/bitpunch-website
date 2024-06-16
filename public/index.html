@@ -12,10 +12,13 @@
 <style>
     body {
         background-color: #1a1a1a;
-        color: #fff;
+         
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
     }
     .top-header {
-        background-color: #333;
+        background-color: #222;
     }
     .top-header .logo {
         max-height: 30px;
@@ -91,18 +94,29 @@
         object-fit: cover;
     }
     .card {
+        color: rgba(255, 255, 255, 0.8);
         background-color: #2c2c2c;
+    }
+    .text-gray {
+        color: rgba(255, 255, 255, 0.8);
+    }    
+    .card:hover .text-gray {
+        color: white;
+    }    
+    .card:hover {
+        color: white;
     }
     .btn-gray {
         background-color: #6c757d;
         color: #fff;
         border: none;
+        font-family: 'Montserrat', sans-serif;
     }
     .btn-gray:hover {
         background-color: #5a6268;
     }
     .footer {
-        background-color: #333;
+        background-color: #222;
         padding: 20px 0;
     }
     .footer-column h3 {
@@ -117,12 +131,32 @@
     .footer-column a i {
         margin-right: 8px;
     }
+    .footer-column:not(:first-child) {
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        padding-left: 20px;
+    }    
+    h2 {
+        font-size: 1.3rem;
+    }
+    h3 {
+        color: #39b54a;
+        font-size: 1.2rem;
+    }
+    h4 {
+        color: #39b54a;
+        font-size: 1.1rem;
+    }
+    .contact-form {
+        background-color: #222;
+        padding: 20px;
+        border-radius: 5px;
+    }        
 </style>
 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark top-header fixed-top">
-        <a class="navbar-brand" href="#"><img src="/images/logo-small.png" alt="BITPUNCH Logo" class="logo"></a>
+        <a class="navbar-brand" href="/"><img src="/images/logo-small.png" alt="BITPUNCH Logo" class="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -213,7 +247,7 @@
         <div class="row">
             
             <div class="col-md-4 mb-4">
-                <a href="http://localhost:1313/news/news1/" class="text-white text-decoration-none">
+                <a href="http://localhost:1313/news/news1/" class="text-decoration-none">
                     <div class="card p-3 h-100">
                         <h3>News Headline 1</h3>
                         <p>01-01-2024</p>
@@ -223,7 +257,7 @@
             </div>
             
             <div class="col-md-4 mb-4">
-                <a href="http://localhost:1313/news/news2/" class="text-white text-decoration-none">
+                <a href="http://localhost:1313/news/news2/" class="text-decoration-none">
                     <div class="card p-3 h-100">
                         <h3>News Headline 2</h3>
                         <p>01-01-2024</p>
@@ -233,7 +267,7 @@
             </div>
             
             <div class="col-md-4 mb-4">
-                <a href="http://localhost:1313/news/news3/" class="text-white text-decoration-none">
+                <a href="http://localhost:1313/news/news3/" class="text-decoration-none">
                     <div class="card p-3 h-100">
                         <h3>News Headline 3</h3>
                         <p>01-01-2024</p>
@@ -263,7 +297,7 @@
         <div class="row">
             
             <div class="col-md-4 mb-4">
-                <a href="http://localhost:1313/jobs/job1/" class="text-white text-decoration-none">
+                <a href="http://localhost:1313/jobs/job1/" class="text-gray text-decoration-none">
                     <div class="card p-3 h-100">
                         <h3>Job 1</h3>
                         <p>Job description &hellip;</p>
@@ -273,7 +307,7 @@
             </div>
             
             <div class="col-md-4 mb-4">
-                <a href="http://localhost:1313/jobs/job2/" class="text-white text-decoration-none">
+                <a href="http://localhost:1313/jobs/job2/" class="text-gray text-decoration-none">
                     <div class="card p-3 h-100">
                         <h3>Job 2</h3>
                         <p>Job description &hellip;</p>
@@ -283,7 +317,7 @@
             </div>
             
             <div class="col-md-4 mb-4">
-                <a href="http://localhost:1313/jobs/job3/" class="text-white text-decoration-none">
+                <a href="http://localhost:1313/jobs/job3/" class="text-gray text-decoration-none">
                     <div class="card p-3 h-100">
                         <h3>Job 3</h3>
                         <p>Job description &hellip;</p>
@@ -303,11 +337,8 @@
     <section id="contact" class="container my-5">
         <h2 class="text-center">Contact Us</h2>
         <div class="row">
-            <div class="col-md-6">
-                <p>If you have any questions or inquiries, feel free to reach out to us through the contact form. We're here to help and look forward to hearing from you!</p>
-            </div>
-            <div class="col-md-6">
-                <form action="mailto:info@bitpunch.io" method="post" enctype="text/plain">
+            <div class="col-md-8">
+                <form action="mailto:info@bitpunch.io" method="post" enctype="text/plain"  class="contact-form">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name" class="form-control" required>
@@ -327,6 +358,19 @@
                     <button type="submit" class="btn btn-gray btn-block">Send</button>
                 </form>
             </div>
+            <div class="col-md-4">
+                <p>If you have any questions or inquiries, feel free to reach out to us through the contact form. We're here to help and look forward to hearing from you!</p>
+                <h4>Where to Find Us</h4>
+                <p>1600 Amphitheatre Parkway</p>
+                <p>Mountain View, CA</p>
+                <p>94043 US</p>
+                <h4>Email Us At</h4>
+                <p>contact@glintsite.com</p>
+                <p>info@glintsite.com</p>
+                <h4>Call Us At</h4>
+                <p>Phone: (+63) 555 1212</p>
+                <p>Mobile: (+63) 555 0100</p>
+            </div>            
         </div>
     </section>
 
