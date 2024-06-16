@@ -13,16 +13,6 @@ image_thumb: "/images/games/sands-thumb.png"
 image_banner: "/images/games/sands-banner.jpg"
 image_banner_mobile: "/images/games/sands-banner.jpg"
 image_preview: /uploads/images/Johnan/preview.jpg
-youtube_link: '#'
-behance_link: '#'
-tags:
-  - slots
-  - games
-categories: games
-keywords:
-  - game2
-  - games
-  - slots
 game_type: VIDEO SLOTS
 game_size: 20MB
 language: MULTI - LANGUAGE

@@ -31,7 +31,7 @@
 
     <section class="banner">
         <div class="banner-slider">
-            {{ $pages := where .Site.Pages "Section" "games" | first 3 }}
+            {{ $pages := where .Site.RegularPages "Section" "games" | first 3 }}
             {{ range $pages }}
             <div>
                 <a href="{{ .Permalink }}">

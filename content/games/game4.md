@@ -12,17 +12,7 @@ summary: "From the old times and the ancient world, stories have been told and p
 image_thumb: "/images/games/monster-thumb.png"
 image_banner: "/images/games/monster-banner.jpg"
 image_banner_mobile: "/images/games/sands-banner.jpg"
-image_preview: /uploads/images/Johnan/preview.jpg
-youtube_link: '#'
-behance_link: '#'
-tags:
-  - slots
-  - games
-categories: games
-keywords:
-  - game2
-  - games
-  - slots
+image_preview: "/images/Johnan/preview.jpg"
 game_type: VIDEO SLOTS
 game_size: 20MB
 language: MULTI - LANGUAGE
