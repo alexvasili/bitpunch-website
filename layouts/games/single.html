@@ -1,0 +1,87 @@
+{{ define "main" }}
+<article class="container my-5">
+    <header class="mb-4">
+        <h1 class="text-white">{{ .Title }}</h1>
+        <p class="text-gray">{{ .Date.Format "02-01-2006" }}</p>
+    </header>
+    <div class="text-gray">
+        {{ .Content }}
+    </div>
+</article>
+
+<!-- Features -->
+<div class="container-fluid mt-1 mx-0 px-0">    
+    <div class="container-fluid py-1 px-4 pt-4 pb-4">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center text-gray">GAME FEATURES</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-1 px-4 mb-4">
+        <div class="row">
+            <div class="col-md-4 mb-3 border-right">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">GAME TYPE</h6>
+                        <p class="text-white">{{ .Param `game_type` }}</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">LANGUAGE</h6>
+                        <p class="text-white">{{ .Param `language` }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 border-right">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">SIZE</h6>
+                        <p class="text-white">{{ .Param `game_size` }}</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">PRODUCTION STATUS</h6>
+                        <p class="text-white">{{ .Param `status` }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">RTP</h6>
+                        <p class="text-white">{{ .Param `rtp` }}</p>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">VOLATILITY</h6>
+                        <p class="text-white">{{ .Param `volatility` }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 mb-3 border-right">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">PLATFORM</h6>
+                        <p class="text-white">{{ .Param `platform` }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="row mb-3">
+                    <div class="col-12">
+                        <h6 class="text-lowercase text-green">MAX WIN</h6>
+                        <p class="text-white">{{ .Param `exposure` }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

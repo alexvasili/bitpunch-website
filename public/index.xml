@@ -9,34 +9,6 @@
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Game Title 1</title>
-      <link>http://localhost:1313/games/game1/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/game1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game Title 2</title>
-      <link>http://localhost:1313/games/game2/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/game2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game Title 3</title>
-      <link>http://localhost:1313/games/game3/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/game3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game Title 4</title>
-      <link>http://localhost:1313/games/game4/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/games/game4/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Job 1</title>
       <link>http://localhost:1313/jobs/job1/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -58,6 +30,20 @@
       <description>Job description &amp;hellip;</description>
     </item>
     <item>
+      <title>Johnan Legendarian</title>
+      <link>http://localhost:1313/games/game1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/game1/</guid>
+      <description>From the old times and the ancient world, stories have been told and passed on. Heroes, villains, and events from the past are brought together in a series of Legends.</description>
+    </item>
+    <item>
+      <title>Monster Blox</title>
+      <link>http://localhost:1313/games/game4/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/game4/</guid>
+      <description>From the old times and the ancient world, stories have been told and passed on. Heroes, villains, and events from the past are brought together in a series of Legends.</description>
+    </item>
+    <item>
       <title>News Headline 1</title>
       <link>http://localhost:1313/news/news1/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -77,6 +63,20 @@
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/news/news3/</guid>
       <description>Brief snippet of the news article&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Peter Hunter</title>
+      <link>http://localhost:1313/games/game3/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/game3/</guid>
+      <description>From the old times and the ancient world, stories have been told and passed on. Heroes, villains, and events from the past are brought together in a series of Legends.</description>
+    </item>
+    <item>
+      <title>Sands of Destiny</title>
+      <link>http://localhost:1313/games/game2/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/games/game2/</guid>
+      <description>From the old times and the ancient world, stories have been told and passed on. Heroes, villains, and events from the past are brought together in a series of Legends.</description>
     </item>
   </channel>
 </rss>
